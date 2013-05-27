@@ -27,35 +27,40 @@
 			</header>
 			
 			<div class="contentWrapper">
-				<!-- sidebar -->
-				<aside class="sidebarOne">
-					<h2>Tomorrow starts with today, yesterday was much better</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
-					<p> <img src="images/mouse.jpg" alt="mouse" /></p>
-					<h3>What A lovely mouse!</h3>
-					<p>For mouse recipes go to the BBC website, alternatively grill on a low heat for upto an hour or until the squeeking stops.</p>
-					<h3>Just kidding, Rat tastes much better</h3>
-					<p>Rat recipes: RatOvan, a rat run over by a van. Ratatouille, two rats run over by a van.</p>
-				</aside>
-				<!-- main Content -->
-				<article class="main">
-					<h2>Is it just an amazing coincidence that I overtook a DeLorean on the motorway?</h2>
-					<p><img src="images/meercat.jpg" alt ="a meer cat not a meerkat" /></p>
-					<p>A bather whose clothing was strewed,</p>
-					<p>winds that left her quite nude,</p>
-					<p>Saw a man come along,</p>
-					<p>And unless we are wrong,</p>
-					<p>You expected this line to be lewd.</p>
-					<h3><img src="images/llama.jpg" alt="llama in pjamamaamas"/>Expect the unexpected, I know I did</h3>
-					<!--
-					<p><form action="#" method="post" name="llamaForm" class="formInput">
-						To be filled in later
-						<input type="submit" name="submit" value="GO!"/>
-					</form></p>
-					-->
-					<h3>Wont you be a darling and pass me a towel</h3>
-					<p>The Church has had its problems of late with God refusing to allow sacrificing of children. This has created an uproar in schools as teachers are now forced to do work.</p>
-				</article>
+				<div class="columnWrapper">
+					<!-- main Content -->
+					<article class="main">
+						<h2>Is it just an amazing coincidence that I overtook a DeLorean on the motorway?</h2>
+						<p><img src="images/meercat.jpg" alt ="a meer cat not a meerkat" class="half left"/></p>
+						<div class="limeric">
+							<p>A bather whose clothing were strewed</p>
+							<p>Winds that left her quite nude</p>
+							<p>I saw a man come along</p>
+							<p>And unless I am wrong</p>
+							<p>You expected this line to be lewd.</p>
+						</div>
+						<h3>Expect the unexpected, I know I did!</h3>
+						<img src="images/llama.jpg" alt="llama in pjamamaamas" class="half right"/>
+						<!--
+						<p><form action="#" method="post" name="llamaForm" class="formInput">
+							To be filled in later
+							<input type="submit" name="submit" value="GO!"/>
+						</form></p>
+						-->
+						<h3>Wont you be a darling and pass me a towel</h3>
+						<p>The Church has had its problems of late with God refusing to allow sacrificing of children. This has created an uproar in schools as teachers are now forced to do work.</p>
+					</article>
+					<!-- sidebar -->
+					<aside class="sidebarOne">
+						<h2>Tomorrow starts with today, yesterday was much better</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<p><img src="images/mouse.jpg" alt="mouse" class="half left" /></p>
+						<h3>What A lovely mouse!</h3>
+						<p>For mouse recipes go to the BBC website, alternatively grill on a low heat for upto an hour or until the squeeking stops.</p>
+						<h3>Just kidding, Rat tastes much better</h3>
+						<p>Rat recipes: RatOvan, a rat run over by a van. Ratatouille, two rats run over by a van.</p>
+					</aside>
+				</div>
 				<!-- sidebar two -->
 				<aside class="sidebarTwo">
 					<h2>Look the other way it is much nicer to the west</h2>
@@ -68,7 +73,7 @@
 						<li>Do you really think being the Queen is a good job?</li>
 					</ul>
 					<h3>I was told as a kid that they would turn into NINJAS</h3>
-					<img src="images/turtles.jpg" alt="mutant turtles" width="100px"/>
+					<img src="images/turtles.jpg" alt="mutant turtles" class="half right"/>
 					<p>Can&#39t stop these radical dudes</p>
 					<p>The secret of the ooze made the chosen few</p>
 					<p>Emerge from the shadows to make their move</p>
@@ -76,7 +81,7 @@
 				</aside>
 			</div>
 			<footer>
-				<p>&#169;<?=date("d/m/Y") ?> The big nosem little knikers group</p>
+				<p>&#169; <?=date("d/m/Y") ?> The big nose, little knickers group</p>
 				<p>If you wish to talk to some one, there are many good books in the local library that will teach you how</p>
 				<p>Email me your suggestions at <a href="notgoingnowhere@fast.com">go-on@dareyou.com</a></p>
 			</footer>
